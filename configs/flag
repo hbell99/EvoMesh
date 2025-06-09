@@ -1,0 +1,15 @@
+space_dim=3
+n_train=1000
+n_valid=100
+n_test=100
+time_len=400
+noise_level="0.003 0.003 0.003"
+consist_mesh=0
+multi_mesh_layer=7
+MP_time=1
+num_epochs=50
+batch=16
+lr=3e-4
+gamma=0.79432823472
+data_dir='/data/hydeng/meta/meta-BSMS/data/flag'
+dump_dir='./res/flag'
