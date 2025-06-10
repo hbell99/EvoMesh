@@ -11,5 +11,5 @@ num_epochs=50
 batch=16
 lr=3e-4
 gamma=0.79432823472
-data_dir='/data/hydeng/meta/meta-BSMS/data/flag'
+data_dir='PATH_TO_YOUR_DATA'
 dump_dir='./res/flag'
