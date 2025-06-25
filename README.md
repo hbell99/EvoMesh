@@ -98,6 +98,16 @@ EvoMesh consistently outperforms the compared mod- els across all benchmarks.
 
 If you find this repo useful, please cite our paper. 
 
+```
+@inproceedings{
+    deng2025evomesh,
+    title={EvoMesh: Adaptive Physical Simulation with Hierarchical Graph Evolutions},
+    author={Huayu Deng and Xiangming Zhu and Yunbo Wang and Xiaokang Yang},
+    booktitle={Forty-second International Conference on Machine Learning},
+    year={2025},
+    url={https://openreview.net/forum?id=ZZvTc92dYQ}
+}
+```
 
 ## Credits
 
