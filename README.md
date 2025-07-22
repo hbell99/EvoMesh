@@ -94,11 +94,10 @@ EvoMesh consistently outperforms the compared mod- els across all benchmarks.
 
 ## Poster
 
-<div  style="display:flex; flex-direction:row;">
-    <figure>
-        <img src="./pic/poster.png" height=300px/>
-    </figure>
-</div>
+<p align="center">
+<img src="./pic/poster.png" height = "300" alt="" align=center />
+</p>
+
 
 ## Citation
 
