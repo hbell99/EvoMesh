@@ -1,7 +1,6 @@
 # EvoMesh (ICML 2025)
 About code release of "EvoMesh: Adaptive Physical Simulation with Hierarchical Graph Evolutions", ICML 2025
-
-EvoMesh: Adaptive Physical Simulation with Hierarchical Graph Evolutions [[Arxiv]](https://arxiv.org/abs/2410.03779) [[Project Page]](https://hbell99.github.io/evo-mesh/)
+[[Arxiv]](https://arxiv.org/abs/2410.03779) [[Project Page]](https://hbell99.github.io/evo-mesh/).
 
 Graph neural networks have been a powerful tool for mesh-based physical simulation. To efficiently model large-scale systems, existing methods mainly employ hierarchical graph structures to capture multi-scale node relations. However, these graph hierarchies are **typically manually designed and fixed**, limiting their ability to adapt to the evolving dynamics of complex physical systems. We propose EvoMesh, a fully differentiable framework that **jointly learns graph hierarchies and physical dynamics, adaptively guided by physical inputs.** EvoMesh introduces anisotropic message passing, which enables direction-specific aggregation of dynamic features between nodes within each hierarchy, while simultaneously learning node selection probabilities for the next hierarchical level based on physical context. This design creates more flexible message shortcuts and enhances the model's capacity to capture long-range dependencies. 
 
@@ -53,7 +52,7 @@ Please maintain the file structure shown below to run the script by default.
 
 ## Pretrained Weights
 
-We will release the pretrained weights soon.
+The pretrained weights can be download from this [link](https://drive.google.com/drive/folders/1jGA2M5Vahc_d9WZJ6_Ov6TBZSM_RsBKD?usp=sharing).
 
 ## Training
 
@@ -93,6 +92,13 @@ EvoMesh consistently outperforms the compared mod- els across all benchmarks.
 </p>
 
 
+## Poster
+
+<div  style="display:flex; flex-direction:row;">
+    <figure>
+        <img src="./pic/poster.png" height=300px/>
+    </figure>
+</div>
 
 ## Citation
 
